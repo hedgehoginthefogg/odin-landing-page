@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* Leaving here as it was making the header centred*/
+    /* justify-content: center;
+    align-items: center; */
+    min-height: 100vh;
+}
+
+header {
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+}
+
+.middle {
+    flex-grow: 1;
+}
+
+h2 {
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-placeholder {
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.cards img{
+
+}
+
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-links{
+    display: flex;
+    margin-left: 20px;
+}
+
+
+ul  {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
