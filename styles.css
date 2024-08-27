@@ -7,36 +7,13 @@ body {
     min-height: 100vh;
 }
 
+
+/*CSS for the header nav bar*/
+
 header {
     padding: 10px 20px;
     background-color: #f8f9fa;
 }
-
-.middle {
-    flex-grow: 1;
-}
-
-h2 {
-    text-align: center;
-}
-.cards {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.image-placeholder {
-    width: 150px;
-    height: 150px;
-    border: 2px solid blue;
-    border-radius: 10px;
-}
-
-.cards img{
-
-}
-
-
 
 .header-container {
     display: flex;
@@ -62,4 +39,55 @@ ul  {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+/*Css for second section - the 'hero banner'*/
+
+.hero-banner {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    gap: 60px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.banner-image-placeholder{
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* CSS for third section, the 'cards'*/
+.middle {
+    flex-grow: 1;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-placeholder {
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.cards img{
+
 }
