@@ -5,14 +5,16 @@ body {
     /* justify-content: center;
     align-items: center; */
     min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
-/*CSS for the header nav bar*/
+/* Header nav bar*/
 
 header {
     padding: 10px 20px;
     background-color: #f8f9fa;
+    margin: 0;
 }
 
 .header-container {
@@ -41,7 +43,11 @@ ul  {
     margin: 0;
 }
 
-/*Css for second section - the 'hero banner'*/
+li {
+    padding-right: 30px;
+}
+
+/* Second section - the 'hero banner'*/
 
 .hero-banner {
     display: flex;
@@ -49,6 +55,8 @@ ul  {
     padding: 20px;
     width: 100%;
     gap: 60px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .banner-text {
@@ -66,11 +74,17 @@ ul  {
     width: 400px;
 }
 
-h2 {
-    text-align: center;
+.hero-banner h2 {
+    font-size: 48px;
+    font-weight: 900;
 }
 
-/* CSS for third section, the 'cards'*/
+.hero-banner p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Third section, the 'cards'*/
 .middle {
     flex-grow: 1;
 }
@@ -90,4 +104,21 @@ h2 {
 
 .cards img{
 
+}
+
+/* Fourth section, the footer*/
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+
+/* General things*/
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 1%;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
 }
