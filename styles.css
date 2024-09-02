@@ -86,10 +86,15 @@ li {
 }
 
 /* Third section, the 'cards'*/
+.middle {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
 .middle h2{
     display: flex;
     justify-content: center;
-   
+    margin-top: 0;
+    margin-bottom: 40px;  
 }
 
 .cards {
@@ -97,7 +102,6 @@ li {
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
-    max-width: 100%;
     margin: 0 auto;
     padding: 0px;
 }
@@ -119,7 +123,35 @@ li {
     margin-top: 10px;
 }
 
-/* Fourth section, the footer*/
+/* Fourth section, the quote */
+.quote-section {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.quote-section blockquote{
+    max-width: 600px;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+cite {
+    margin-left: auto;
+    font-style: normal;
+    font-weight: 900;
+}
+
+/* fifth section, the footer*/
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -136,4 +168,6 @@ button {
     border-radius: 6px;
     width: auto;
     align-self: flex-start;
+    padding: 5px 30px;
+    border: none;
 }
