@@ -73,6 +73,7 @@ li {
     justify-content: center;
     padding: 30px;
     width: 400px;
+    height: 200px;
 }
 
 .hero-banner h2 {
@@ -151,10 +152,50 @@ cite {
     font-weight: 900;
 }
 
-/* fifth section, the footer*/
+/* fifth section, call to action */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.blue-container {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    padding: 20px 100px;
+    margin: 60px;
+    justify-content: space-between;
+}
+
+.call-to-action button {
+    border: solid 3px white;
+    margin-left: 60px;
+}
+
+.call-to-action-heading {
+    font-weight: 900;
+}
+
+.call-to-action-text {
+    min-width: 200px;
+}
+.call-to-action-text p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* sixth section, the footer*/
 footer {
+    display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
 }
 
 
@@ -162,7 +203,6 @@ footer {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 1%;
     text-decoration: none;
     cursor: pointer;
     border-radius: 6px;
@@ -170,4 +210,5 @@ button {
     align-self: flex-start;
     padding: 5px 30px;
     border: none;
+    align-self: center;
 }
